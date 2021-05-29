@@ -1,10 +1,10 @@
-void CMFCDraw2Dlg::OnBnClickedButton1()
+void CMFCDraw2Dlg::OnBnClickedButtonDraw()  //按下绘制圆得的按钮
 {
-	// TODO: 在此添加控件通知处理程序代码
+	// TODO: 
 	CClientDC dc(this);
 	CString str;
-	GetDlgItemText(IDC_EDIT1, str);
-	r = _ttoi(str);
+	GetDlgItemText(IDC_EDIT1, str);  //获取输入框中圆的半径
+	r = _ttoi(str);  //CString转int
 	int dx = Opoint.x;
 	int dy = Opoint.y;
 	int x=0;
