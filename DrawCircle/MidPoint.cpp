@@ -1,4 +1,4 @@
-void CMFCDraw2Dlg::OnBnClickedButtonDraw()  //按下绘制圆得的按钮
+void CMFCDraw2Dlg::OnBnClickedButtonDraw()  //按下绘制圆的按钮
 {
 	// TODO: 
 	CClientDC dc(this);
