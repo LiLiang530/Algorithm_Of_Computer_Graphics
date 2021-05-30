@@ -3,7 +3,7 @@ typedef struct {
 	int y;
 }Seed;  //自定义种子坐标数据类型(x,y)
 
-void CMFCDraw3Dlg::ScanLineFill(HDC dc, int x, int y)
+void CMFCDraw3Dlg::ScanLineSeedFill(HDC dc, int x, int y)
 {
 	std::stack<Seed> sstk;  //递归栈
 	int xl, xr, i;
